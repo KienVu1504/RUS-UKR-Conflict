@@ -87,22 +87,22 @@ img {
     border-left: 6px solid #04AA6D;
     padding: 5px;
     margin-bottom: 5px;
-  }
-  
-  .info {
+}
+
+.info {
     background-color: #e7f3fe;
     border-left: 6px solid #2196F3;
     padding: 5px;
     margin-bottom: 5px;
-  }
-  
-  
-  .warning {
+}
+
+
+.warning {
     background-color: #ffffcc;
     border-left: 6px solid #ffeb3b;
     padding: 5px;
     margin-bottom: 5px;
-  }
+}
 
 .ag-format-container {
     width: 1160px;
@@ -112,7 +112,7 @@ img {
 
 .ag-timeline-block {
     position: relative;
-    padding: 195px 0;
+    padding: 195px 0 300px 0;
 }
 
 .ag-timeline-block::after{
