@@ -42,14 +42,14 @@
             var agTop = agTimelineItem.last().find(agTimelinePoint).offset().top;
                 i = agTop + agPosY - $(window).scrollTop();
                 a = agTimelineLineProgress.offset().top + agPosY - $(window).scrollTop();
-                n = agPosY - a + agOuterHeight / 2;
-                i <= agPosY + agOuterHeight / 2 && (n = i - a);
+                n = agPosY - a + agOuterHeight / 1.15;
+                i <= agPosY + agOuterHeight / 1.15 && (n = i - a);
 
             agTimelineLineProgress.css({height: n + "px"});
-            agTimelineItem.each(function () {
-                var agTop = $(this).find(agTimelinePoint).offset().top;
-                (agTop + agPosY - $(window).scrollTop()) < agPosY + .5 * agOuterHeight ? $(this).addClass('js-ag-active') : $(this).removeClass('js-ag-active');
-            })
+            // agTimelineItem.each(function () {
+            //     var agTop = $(this).find(agTimelinePoint).offset().top;
+            //     (agTop + agPosY - $(window).scrollTop()) < agPosY + .5 * agOuterHeight ? $(this).addClass('js-ag-active') : $(this).removeClass('js-ag-active');
+            // })
         }
 
         function fnUpdateFrame() {

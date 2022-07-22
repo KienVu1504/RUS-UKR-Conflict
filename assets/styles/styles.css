@@ -15,6 +15,23 @@ rus-red{
     color: #DA291C;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(#0057B7 50%, #FFDD00 50%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+
 ukr{
     /* font-size: 72px; */
     background: -webkit-linear-gradient(#0057B7 60%, #FFDD00 40%);
@@ -112,7 +129,7 @@ img {
 
 .ag-timeline-block {
     position: relative;
-    padding: 195px 0 300px 0;
+    padding: 195px 0 0 0;
 }
 
 .ag-timeline-block::after{
@@ -203,10 +220,6 @@ img {
 .ag-timeline-card_point-box {
     display: inline-block;
     margin: 0 14px 0 -28px;
-}
-
-.ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
-    /* margin: 0 -28px 0 14px; */
 }
 
 .ag-timeline-card_point {
@@ -422,6 +435,19 @@ a {
 	background: #fff;
 	color: #6b6e80;
 	position: relative;
+}
+
+.flag-counter{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.name{
+    display: block;
+    color: white;
+    margin: 0 !important;
+    padding-left: 90px;
+    font-weight: bold;
 }
 
 .blog-comment .meta {
